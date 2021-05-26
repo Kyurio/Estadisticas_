@@ -1,0 +1,144 @@
+.navbar{
+
+  background-color: $colorprincipal !important;
+  padding: 1.5rem;
+
+  a{
+    color: $white !important;
+  }
+  :hover{
+    color: $colorSecundario !important;
+  }
+
+}
+
+
+//configuracion contenedor de textos
+.container-text{
+
+  width: 100% !important;
+  background-color: #fff !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+// condiguracion galeria
+.flex-column {
+  max-width: 260px;
+}
+
+.scale {
+  transform: scaleY(1.05);
+  padding-top: 5px;
+}
+
+//  Footer
+.footer{
+  background-color: $colorprincipal;
+  display: block;
+  a{
+    color: #fff !important;
+  }
+  :hover{
+    text-decoration: none;
+  }
+}
+
+//sidebarMenu
+
+.sidebar{
+
+  background-color: $colorprincipal !important;
+  color: $white !important;
+  text-align: left;
+  a{
+    color: $white !important;
+    :hover{
+      color: $colorSecundario;
+    }
+  }
+
+}
+
+
+
+
+// galeria
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
+  .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  @media (max-width: 450px) {
+    .gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+  }
+
+
+  //titulos
+
+  .project-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.29;
+    margin-bottom: 20px;
+  }
+
+  //links
+  .project-link {
+    font-size: 22px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  .project-link::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    border-bottom: 1px solid #979797;
+    margin-left: 15px;
+  }
+
+//imgs posts
+
+.project-thumbnail-wrapper {
+    height: 330px;
+    overflow: hidden;
+}
+
+// posts
+.portfolio-list .project .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

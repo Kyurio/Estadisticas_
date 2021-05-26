@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+$font-family: 'Cutive Mono', monospace;
+
+
+$colorprincipal: #2f323e;
+$colorSecundario: #f33155;
+$colorTerciario: #00587a;
+
+$backgroundcolor: #1b1919;
+$colorTextoWhite: #ffff;
+
+$colorconstraste: #f39c12;
+$white: #e7e7de;
+
+
+// configuracion de botones de  bootstrpa
+.danger{
+
+  background-color: $colorSecundario !important;
+
+}
