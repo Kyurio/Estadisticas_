@@ -6,10 +6,10 @@ define('RUTA_URL', '/Estadisticas_/');
 
 
 //datos de conexion
-define('USER', 'root');
-define('PASSWORD', '1nf0rm4t1c@');
-define('NAME_BD', 'estadisticas');
-define('HOST', 'localhost');
+define('USER', '');
+define('PASSWORD', '');
+define('NAME_BD','');
+define('HOST', '');
 
 
 ?>
